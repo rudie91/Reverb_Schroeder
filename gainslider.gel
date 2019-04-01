@@ -1,0 +1,5 @@
+menuitem "Gain1 Control"
+slider Gain1(0,99,1,1,gain1_slider)
+{
+	gain1 = gain1_slider*0.01;
+}

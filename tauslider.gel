@@ -1,0 +1,5 @@
+menuitem "Tau1 Control"
+slider Tau1(0,100,1,1,tau1_slider)
+{
+	tau1 = tau1_slider*0.0004;
+}
